@@ -1,0 +1,147 @@
+{
+  "general": {
+    "image_dir": "Y:/10_CLIENT/Images/Node_pictures",
+    "output_dir": "",
+    "csv_file": "Z:/Projects/11_BR009525_Iracema_Petrobras/04_QC/Tosurvey/nav_data_05_27/MT1009525_CumulativeCSV.csv",
+    "last_export_csv_filename": "Z:/Projects/11_BR009525_Iracema_Petrobras/04_QC/Tosurvey/nav_data_05_27/Pictures_29_052025.csv",
+    "nav_image_dir": "Z:/Projects/11_BR009525_Iracema_Petrobras/05_SURVEY/19.QC/FROM/SEA1_SPEARFISH_NAV_DATA_14-28May_2025/04_Photos",
+    "last_export_excel_filename": "Z:/Projects/11_BR009525_Iracema_Petrobras/04_QC/000_DataShipments/BR007824_Iracema_data_shipment_V0-Images_TESTTESTTEST.xlsx",
+    "last_update_excel_file": "Z:/Projects/11_BR009525_Iracema_Petrobras/04_QC/000_DataShipments/BR007824_Iracema_data_shipment_V0-Images_TESTTESTTEST.xlsx",
+    "last_update_excel_mapping": {
+      "Node name \nXXXXYYYYZ": "Node Name",
+      "File name Deployment": "filename_dep",
+      "File name Recovery": "filename_rec",
+      "Date - Node Deployment": "Datetime_dep",
+      "Date - Node Recovery": "Datetime_rec",
+      "Date - Image Node Deployment upload": "Bumper_rec",
+      "Date - Image Node Recovery upload": "Bumper_rec",
+      "Comment Deployment": "DeployedComments",
+      "Comment Recovery": "RecoveredComments"
+    },
+    "csv_export_columns": [
+      "Node Name",
+      "NodeCode",
+      "Bumper_dep",
+      "Bumper_rec",
+      "Deployed by ROV",
+      "ROV_dep",
+      "Recovered by ROV",
+      "ROV_rec",
+      "Aslaid Time",
+      "Datetime_dep",
+      "Recovered Time",
+      "Datetime_rec",
+      "filename_dep",
+      "filename_rec",
+      "DeployedComments",
+      "RecoveredComments"
+    ]
+  },
+  "format_config": {
+    "Line": {
+      "start": "2",
+      "length": "4"
+    },
+    "Point": {
+      "start": "8",
+      "length": "4"
+    },
+    "Index": {
+      "start": "13",
+      "length": "1"
+    },
+    "Bumper": {
+      "start": "34",
+      "length": "5"
+    },
+    "Date": {
+      "start": "25",
+      "length": "8"
+    },
+    "Time": {
+      "start": "19",
+      "length": "6"
+    },
+    "ROV": {
+      "start": "40",
+      "length": "5"
+    }
+  },
+  "columns_config": {
+    "Line": true,
+    "Point": true,
+    "NodeCode": true,
+    "Index": true,
+    "Preplot Easting": false,
+    "Preplot Northing": true,
+    "Preplot Depth": true,
+    "Aslaid Time": true,
+    "Aslaid Easting": true,
+    "Aslaid Northing": true,
+    "Aslaid Depth": true,
+    "Aslaid Tide Offset": false,
+    "Aslaid Azimuth": false,
+    "Is Aslaid Adjusted": false,
+    "Recovered Time": true,
+    "Recovered Easting": false,
+    "Recovered Northing": false,
+    "Recovered Depth": false,
+    "Recovered Tide Offset": false,
+    "Recovered Azimuth": false,
+    "Is Recovered Adjusted": false,
+    "PreplotToAslaidDistance": false,
+    "PreplotToAslaidBearing": false,
+    "AslaidToRecoveredDistance": false,
+    "AslaidToRecoveredBearing": false,
+    "RecoveredtoPreplotDistance": false,
+    "RecoveredtoPreplotBearing": false,
+    "PreplotToAslaidAlongTrack": false,
+    "PreplotToAslaidCrossTrack": false,
+    "RecoveredtoPreplotAlongTrack": false,
+    "RecoveredtoPreplotCrossTrack": false,
+    "AslaidToRecoveredAlongTrack": false,
+    "AslaidToRecoveredCrossTrack": false,
+    "Deployed by ROV": true,
+    "Recovered by ROV": true,
+    "DeployedComments": true,
+    "RecoveredComments": true
+  },
+  "datetime_format": "%Y-%m-%d %H:%M:%S.%f",
+  "png_datetime_format": {
+    "date_format": "%d%m%Y",
+    "time_format": "%H%M%S"
+  },
+  "mandatory_export_columns": [
+    "Line",
+    "Point",
+    "NodeCode",
+    "Index",
+    "Aslaid Time",
+    "Recovered Time",
+    "Deployed by ROV",
+    "Recovered by ROV",
+    "DeployedComments",
+    "RecoveredComments"
+  ],
+  "defaults": {
+    "datetime_format": "%Y-%m-%d %H:%M:%S.%f",
+    "png_date_format": "%d%m%Y",
+    "png_time_format": "%H%M%S",
+    "mandatory_export_columns": [
+      "Line",
+      "Point",
+      "NodeCode",
+      "Index",
+      "Aslaid Time",
+      "Recovered Time",
+      "Deployed by ROV",
+      "Recovered by ROV",
+      "DeployedComments",
+      "RecoveredComments"
+    ]
+  },
+  "image_dir": "Y:/10_CLIENT/Images/Node_pictures",
+  "csv_file": "Z:/Projects/11_BR009525_Iracema_Petrobras/04_QC/Tosurvey/nav_data_05_27/MT1009525_CumulativeCSV.csv",
+  "output_dir": "Z:/Projects/11_BR009525_Iracema_Petrobras/04_QC/000_DataShipments",
+  "last_update_excel_file": "Z:/Projects/11_BR009525_Iracema_Petrobras/04_QC/000_DataShipments/BR007824_Iracema_data_shipment_V0-Images_TESTTESTTEST.xlsx"
+}
